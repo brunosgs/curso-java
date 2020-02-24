@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao18.nointerface.model.services;
+package br.com.udemy.java.secao18.interfaces.solution.nointerface.model.services;
 
 public class BrazilTaxService {
 	public double tax(double amount) {

@@ -1,14 +1,14 @@
-package br.com.udemy.java.secao18.nointerface.model.services;
+package br.com.udemy.java.secao18.interfaces.solution.yesinterface.model.services;
 
-import br.com.udemy.java.secao18.nointerface.model.entities.CarRental;
-import br.com.udemy.java.secao18.nointerface.model.entities.Invoice;
+import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities.CarRental;
+import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities.Invoice;
 
 public class RentalService {
 	private Double pricePerDay;
 	private Double pricePerHour;
-	private BrazilTaxService taxService;
+	private TaxService taxService;
 
-	public RentalService(Double pricePerDay, Double pricePerHour, BrazilTaxService taxService) {
+	public RentalService(Double pricePerDay, Double pricePerHour, TaxService taxService) {
 		super();
 		this.pricePerDay = pricePerDay;
 		this.pricePerHour = pricePerHour;

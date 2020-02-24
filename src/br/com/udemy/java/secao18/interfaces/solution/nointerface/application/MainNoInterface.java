@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao18.nointerface.application;
+package br.com.udemy.java.secao18.interfaces.solution.nointerface.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,10 +6,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import br.com.udemy.java.secao18.nointerface.model.entities.CarRental;
-import br.com.udemy.java.secao18.nointerface.model.entities.Vehicle;
-import br.com.udemy.java.secao18.nointerface.model.services.BrazilTaxService;
-import br.com.udemy.java.secao18.nointerface.model.services.RentalService;
+import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities.CarRental;
+import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities.Vehicle;
+import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.services.BrazilTaxService;
+import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.services.RentalService;
 
 public class MainNoInterface {
 
