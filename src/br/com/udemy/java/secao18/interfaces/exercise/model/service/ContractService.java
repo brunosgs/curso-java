@@ -1,6 +1,10 @@
 package br.com.udemy.java.secao18.interfaces.exercise.model.service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Contract;
+import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Installment;
 
 public class ContractService {
 	private Double value;
@@ -15,6 +19,12 @@ public class ContractService {
 	}
 
 	public void processContract(Contract contract, Integer months) {
+		Double installmentValue = contract.getTotalValue() / months;
+		List<Installment> installmentList = new ArrayList<>();
 		
+		for(int i = 1; i < this.months; i++ ) {
+			Double installment = installmentValue + onlinePaymentService.paymentFee(installmentValue);
+			Double interestResult = onlinePaymentService.interest(installment, i);
+		}
 	}
 }

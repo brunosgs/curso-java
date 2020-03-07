@@ -31,8 +31,9 @@ public class MainExerciseInterface {
 		System.out.print("Enter number of installments: ");
 		int installment = scan.nextInt();
 		
-		Contract contract = new Contract(number, date, value);
 		ContractService contractService = new ContractService(value, installment, new PaypalService());
+		
+		contractService.processContract(new Contract(number, date, value), installment);
 		
 		scan.close();
 	}
