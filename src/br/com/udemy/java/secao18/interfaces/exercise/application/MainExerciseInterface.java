@@ -37,5 +37,5 @@ public class MainExerciseInterface {
 		
 		scan.close();
 	}
-
+	
 }
