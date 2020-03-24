@@ -1,5 +1,7 @@
 package br.com.udemy.java.secao18.interfaces.exercise.model.entities;
 
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -49,5 +51,19 @@ public class Contract {
 	public void setInstallments(List<Installment> installments) {
 		this.installments = installments;
 	}
+	
+	@Override
+	public String toString() {
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		DecimalFormat df = new DecimalFormat("##,###.##"); 
+		StringBuilder sb = new StringBuilder();
 
+		for (Installment installment : installments) {
+			sb.append(sdf.format(installment.getDueDate()) + " - R$");
+			sb.append(df.format(installment.getAmount()));
+			sb.append("\n");
+		}
+		
+		return sb.toString();
+	}
 }

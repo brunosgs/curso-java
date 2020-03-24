@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import javax.swing.SpringLayout.Constraints;
-
 import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Contract;
 import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Installment;
 
