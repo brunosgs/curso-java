@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities;
+package br.com.udemy.java.secao18.interfaces.solutioninterfaces.yesinterface.model.entities;
 
 public class Vehicle {
 	private String model;

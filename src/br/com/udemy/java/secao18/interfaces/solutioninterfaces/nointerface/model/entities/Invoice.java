@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities;
+package br.com.udemy.java.secao18.interfaces.solutioninterfaces.nointerface.model.entities;
 
 public class Invoice {
 	private Double basicPayment;

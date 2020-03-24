@@ -1,7 +1,7 @@
-package br.com.udemy.java.secao18.interfaces.solution.yesinterface.model.services;
+package br.com.udemy.java.secao18.interfaces.solutioninterfaces.yesinterface.model.services;
 
-import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities.CarRental;
-import br.com.udemy.java.secao18.interfaces.solution.nointerface.model.entities.Invoice;
+import br.com.udemy.java.secao18.interfaces.solutioninterfaces.nointerface.model.entities.CarRental;
+import br.com.udemy.java.secao18.interfaces.solutioninterfaces.nointerface.model.entities.Invoice;
 
 public class RentalService {
 	private Double pricePerDay;

@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao18.interfaces.solution.yesinterface.model.services;
+package br.com.udemy.java.secao18.interfaces.solutioninterfaces.yesinterface.model.services;
 
 public class BrazilTaxService implements TaxService {
 	public double tax(double amount) {
