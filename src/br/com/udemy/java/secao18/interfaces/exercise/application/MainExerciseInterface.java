@@ -10,6 +10,10 @@ import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Contract;
 import br.com.udemy.java.secao18.interfaces.exercise.model.service.ContractService;
 import br.com.udemy.java.secao18.interfaces.exercise.model.service.PaypalService;
 
+/**
+ * 
+ * @author Bruno Gomes
+ */
 public class MainExerciseInterface {
 
 	public static void main(String[] args) throws ParseException {

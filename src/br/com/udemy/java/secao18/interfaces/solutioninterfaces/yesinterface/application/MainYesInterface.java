@@ -37,6 +37,7 @@ public class MainYesInterface {
 		System.out.print("Enter price per day: R$");
 		double pricePerDay = scan.nextDouble();
 
+		// Aqui foi feia a injeção de dependência por meio do construtor (upcasting)
 		RentalService rentalService = new RentalService(pricePerDay, pricePerHour, new BrazilTaxService());
 		rentalService.processInvoice(carRental);
 
