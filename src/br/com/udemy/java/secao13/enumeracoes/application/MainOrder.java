@@ -2,8 +2,8 @@ package br.com.udemy.java.secao13.enumeracoes.application;
 
 import java.util.Date;
 
-import br.com.udemy.java.secao13.enumeracoes.entities.Order;
-import br.com.udemy.java.secao13.enumeracoes.entities.enums.OrderStatus;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.Order;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.enums.OrderStatus;
 
 public class MainOrder {
 
