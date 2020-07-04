@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao13.enumeracoes.entities;
+package br.com.udemy.java.secao13.exerciciofixacao.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import br.com.udemy.java.secao13.enumeracoes.entities.enums.OrderStatus;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.enums.OrderStatus;
 
 public class Order {
 	SimpleDateFormat dataHora = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");

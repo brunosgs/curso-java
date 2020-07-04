@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao13.enumeracoes.application;
+package br.com.udemy.java.secao13.exerciciofixacao.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,13 +6,13 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import br.com.udemy.java.secao13.enumeracoes.entities.Client;
-import br.com.udemy.java.secao13.enumeracoes.entities.Order;
-import br.com.udemy.java.secao13.enumeracoes.entities.OrderItem;
-import br.com.udemy.java.secao13.enumeracoes.entities.Product;
-import br.com.udemy.java.secao13.enumeracoes.entities.enums.OrderStatus;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.Client;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.Order;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.OrderItem;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.Product;
+import br.com.udemy.java.secao13.exerciciofixacao.entities.enums.OrderStatus;
 
-public class MainOrder2 {
+public class MainExercicioFixacao {
 
 	public static void main(String[] args) throws ParseException {
 		Locale.setDefault(Locale.US);

@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao13.enumeracoes.entities;
+package br.com.udemy.java.secao13.exerciciofixacao.entities;
 
 public class Product {
 	private String name;
