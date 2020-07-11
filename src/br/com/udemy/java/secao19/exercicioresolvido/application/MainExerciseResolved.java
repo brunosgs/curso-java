@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao19.exerciseresolved.application;
+package br.com.udemy.java.secao19.exercicioresolvido.application;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-import br.com.udemy.java.secao19.exerciseresolved.entities.LogEntry;
+import br.com.udemy.java.secao19.exercicioresolvido.entities.LogEntry;
 
 public class MainExerciseResolved {
 

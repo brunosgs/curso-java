@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao19.exerciseresolved.entities;
+package br.com.udemy.java.secao19.exercicioresolvido.entities;
 
 import java.util.Date;
 
