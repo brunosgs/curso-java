@@ -16,6 +16,7 @@ public class MainProduct {
 
 	public static void main(String[] args) throws ParseException {
 		Locale.setDefault(Locale.US);
+		
 		Scanner scan = new Scanner(System.in);
 		List<Product> listProduct = new ArrayList<>();
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -28,19 +29,24 @@ public class MainProduct {
 			System.out.print("Common, used or imported (c / u / i)?: ");
 			char select = scan.next().charAt(0);
 			scan.nextLine();
+			
 			System.out.print("Name: ");
 			String name = scan.nextLine();
+			
 			System.out.print("Price: ");
 			Double price = scan.nextDouble();
+			
 			if (select == 'c') {
 				listProduct.add(new Product(name, price));
 			} else if (select == 'u') {
 				System.out.print("Manufacture date (DD/MM/YYYY): ");
 				Date manufacture = sdf.parse(scan.next());
+				
 				listProduct.add(new UsedProduct(name, price, manufacture));
 			} else if (select == 'i') {
 				System.out.print("Customs fee: ");
 				Double customs = scan.nextDouble();
+				
 				listProduct.add(new ImportedProduct(name, price, customs));
 			} else {
 				System.out.println("Nenhuma valor selecionado, reinicie o software!");
