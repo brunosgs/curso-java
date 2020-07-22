@@ -40,7 +40,7 @@ public class MainExercicioFixacaoArquivos {
 				System.out.println("Diretorio criado!");
 			} else {
 				new File(path + "\\out").mkdir();
-				
+
 				BufferedWriter bw = new BufferedWriter(new FileWriter(path + outFileSummary, true));
 
 				for (Product prod : products) {
@@ -51,7 +51,6 @@ public class MainExercicioFixacaoArquivos {
 				bw.flush();
 				bw.close();
 			}
-
 		} catch (IOException ioe) {
 			ioe.printStackTrace();
 		}
