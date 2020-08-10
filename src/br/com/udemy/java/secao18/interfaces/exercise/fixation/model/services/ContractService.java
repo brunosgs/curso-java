@@ -1,11 +1,11 @@
-package br.com.udemy.java.secao18.interfaces.exercise.model.service;
+package br.com.udemy.java.secao18.interfaces.exercise.fixation.model.services;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Contract;
-import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Installment;
+import br.com.udemy.java.secao18.interfaces.exercise.fixation.model.entities.Contract;
+import br.com.udemy.java.secao18.interfaces.exercise.fixation.model.entities.Installment;
 
 public class ContractService {
 	private Double value;

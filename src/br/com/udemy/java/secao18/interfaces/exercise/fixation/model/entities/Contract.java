@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao18.interfaces.exercise.model.entities;
+package br.com.udemy.java.secao18.interfaces.exercise.fixation.model.entities;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;

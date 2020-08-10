@@ -1,4 +1,4 @@
-package br.com.udemy.java.secao18.interfaces.exercise.application;
+package br.com.udemy.java.secao18.interfaces.exercise.fixation.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,9 +6,9 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import br.com.udemy.java.secao18.interfaces.exercise.model.entities.Contract;
-import br.com.udemy.java.secao18.interfaces.exercise.model.service.ContractService;
-import br.com.udemy.java.secao18.interfaces.exercise.model.service.PaypalService;
+import br.com.udemy.java.secao18.interfaces.exercise.fixation.model.entities.Contract;
+import br.com.udemy.java.secao18.interfaces.exercise.fixation.model.services.ContractService;
+import br.com.udemy.java.secao18.interfaces.exercise.fixation.model.services.PaypalService;
 
 /**
  * 
