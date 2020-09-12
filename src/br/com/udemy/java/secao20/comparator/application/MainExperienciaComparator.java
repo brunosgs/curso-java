@@ -30,7 +30,7 @@ public class MainExperienciaComparator {
 			return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 		};
 
-		// Outra forma lambda menos ferbosa comparada a comp2.
+		// Outra forma lambda menos verbosa comparada a comp2.
 		@SuppressWarnings("unused")
 		Comparator<Product> comp3 = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 
